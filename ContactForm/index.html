@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>
+        Contact Form
+    </title>
+
+    <!--Css-->
+    <link rel="stylesheet" href="./main.css">
+
+    <!--jQuery-->
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./jquery-ui.css">
+
+    <!--jQuery UI-->
+    <script
+    src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"
+    integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk="
+    crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+      <section>
+          <div class="container">
+              <div class="row">
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target=" .bs-example-modal-lg">
+                      Click here
+                  </button>
+                  <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                      <div class="modal-dialog modal-lg" role="document">
+                          <div class="modal-content">
+                              <div class="modal-body">
+                                  <div class="row">
+                                      <div class="col-md-5 col-lg-5 block-image">
+                                          <img src="./image/twice_img.jpg" class="img-responsive" >
+                                      </div>
+                                      <div class="col-md-6 col-lg-6 block-contact">
+                                          <h3>Contact us</h3>
+                                          <form>
+                                            <div class="form-group">
+                                                  <input type="text" class="form-control" placeholder="Your name">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" placeholder="Email address">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Phone number">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <textarea type="text" id="" cols="20" rows="4" class="form-control" onblur="if (this.value == '') {this.value = 'Your message';}" 
+                                                onfocus="this.value = '';"></textarea>
+                                            </div>
+
+                                            <button type="submit" class="btn btn-success pull-left">Submit</button>
+                                          </form>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <div class="modal-footer">
+                                <div class="pull-left">
+                                    <span>Enter call: 0964 409 525</span>
+                                </div>
+                                <div class="pull-right">
+                                    <span>Email: tiendattrinh09@gmail.com</span>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+    
+  </body>
+</html>
